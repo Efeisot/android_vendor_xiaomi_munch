@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/munch
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/munch/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/munch/proprietary/vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb \
     vendor/xiaomi/munch/proprietary/vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_General_cal.acdb \
     vendor/xiaomi/munch/proprietary/vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_Global_cal.acdb \
@@ -230,18 +229,6 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.munch_imx596 \
     com.qti.sensor.munch_ov64b40 \
     com.qti.sensor.munch_ov8856 \
-    com.arcsoft.node.smoothtransition \
-    com.facepp.node.siq \
-    com.mi.node.AIIE \
-    com.mi.node.aiasd \
-    com.mi.node.hdr \
-    com.mi.node.mimovie \
-    com.mi.node.realtimebokeh \
-    com.mi.node.rearvideo \
-    com.mi.node.skinbeautifier \
-    com.mi.node.superlowlightraw \
-    com.mi.node.videobokeh \
-    com.mi.node.watermark \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -280,11 +267,6 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.awb \
     com.qtistatic.stats.pdlib \
     com.vidhance.stats.aec_dmbr \
-    com.xiaomi.node.ica \
-    com.xiaomi.node.mibokeh \
-    com.xiaomi.node.mifilter \
-    com.xiaomi.node.misegment \
-    com.xiaomi.node.tracker \
     libdepthmapwrapper \
     libubifocus \
     com.qti.feature2.anchorsync \
@@ -312,7 +294,6 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libHalSuperSensorServer \
-    libMIAIHDRhvx_interface \
     libSNPE \
     libSuperSensor \
     libSuperSensorCPU \
@@ -364,20 +345,6 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libgoodixhwfingerprint \
     libipebpsstriping \
-    libmiai_portraitsupernight \
-    libmialgo_ai_vision \
-    libmialgo_ie_capture \
-    libmialgo_ie_preview \
-    libmialgo_image_colourkeeping \
-    libmialgo_rfs \
-    libmialgo_sd \
-    libmialgo_utils \
-    libmialgo_video_colourkeeping \
-    libmialgo_video_enhance \
-    libmialgo_video_seg_depth \
-    libmialgoengine \
-    libmibokeh_845_video \
-    libmibokeh_855 \
     libmmcamera_faceproc \
     libmmcamera_faceproc2 \
     libmpbase \
@@ -466,14 +433,6 @@ PRODUCT_PACKAGES += \
     libsnpe_dsp_v66_domains_v2_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
-    misound_karaoke_res \
-    misound_karaokemix_res \
-    misound_res \
-    misound_res_headphone \
-    misound_res_spk \
-    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
-    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
-    com.android.hotwordenrollment.common.util \
     batterysecret \
     hvdcp_opti \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
